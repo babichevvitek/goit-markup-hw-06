@@ -490,7 +490,7 @@
 
                
 
-                <form class="form-modal">
+                <form class="form-modal" autocomplete="on">
 
                     <p class="declare">
                         Оставьте свои данные, мы вам перезвоним
@@ -500,7 +500,10 @@
                         
                         <label class="form-label" for="name">
                             имя
-                         <input type="text" class="form-input" name="name" />
+                         <input type="text" class="form-input" name="name" autofocus />
+                         <svg class="icon-person">
+                            <use href="./images/icons 2.svg#icon-person"></use>  
+                         </svg>
                         </label>
     
                     </div>    
@@ -509,6 +512,9 @@
                         <label class="tel" for="tel">  
                             телефон
                          <input type="tel" class="form-input" name="tel" />
+                         <svg class="icon-phone">
+                            <use href="./images/icons 2.svg#icon-phone"></use>  
+                         </svg>
                         </label>
                     </div>      
     
@@ -517,6 +523,9 @@
                         <label class="email" for="email">
                             почта
                           <input type="email" class="form-input" name="email" id="email" />
+                          <svg class="icon-email">
+                            <use href="./images/icons 2.svg#icon-email"></use>  
+                         </svg>
                         </label>
                     </div>  
     
