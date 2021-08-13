@@ -337,12 +337,17 @@ bottom: -1px;
   height: 18px;
   color: var(--primary-text-color);
 }
+.form-modal{
+  min-width: 528px;
+  min-height: 581px;
+}
 
 .declare{
  display: block;
   justify-content: center;
   align-items: center;
-
+  
+ margin-left: 40px;
  font-family: Roboto;
  font-style: normal;
  font-weight: bold;
@@ -354,22 +359,151 @@ bottom: -1px;
  width: 448px;
  height: 23px;
 }
-.field{
+.field-name{
+  
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  width: 448px;
+  height: 58px;
+}
+.field-name label{
+padding-bottom: 4px;
+}
+
+.field-tel{
+  
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+ 
+  width: 448px;
+  height: 58px;
+}
+.field-tel label{
+  padding-bottom: 4px;
+}
+.tel{
+ position: absolute;
+ 
+ width: 58px;
+ height: 14px;
+ 
+ font-family: Roboto;
+ font-size: 12px;
+ line-height: 1.16;
+
+ letter-spacing: 0.01em;
+ color: var(--feature-text-color);
+}
+
+.field-email{
+  
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  width: 448px;
+  height: 58px;
+}
+.email{
+position: absolute;
+width: 41px;
+height: 14px;
+
+
+font-family: Roboto;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color: var(--feature-text-color);
+}
+
+.field-comment{
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+ width: 448px;
+ height: 138px;
+}
+.comment{
+  position: absolute;
+width: 100%;
+height: 14px;
+font-family: Roboto;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color: var(--feature-text-color);
+}
+.comment-text{
+
+  position: absolute;
+  width: 416px;
+  height: 96px;
  
   
-  display: inline-block;
- padding-left: 40px;
- padding-right: 40px;
+  font-family: Roboto;
+  
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  
+  color: rgba(117, 117, 117, 0.5);
 }
+
+.form-policy{
+  display: flex;
+}
+.field-checkbox{
+  padding-left: 52px;
+  padding-right: 51px;
+}
+
+.form-label{
+  
+  width: 25px;
+  height: 14px;
+  
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  
+  color: var(--feature-text-color);
+}
+
 .form-input{
   
   width: 448px;
   height: 40px;
-  margin-bottom: 10px;
+ 
+  
+
+ border: 1px solid rgba(33, 33, 33, 0.2);
+ box-sizing: border-box;
+ border-radius: 4px;
 }
 .comment-text{
-
+  display: flex;
+  
+  position: absolute;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
 }
+
 .send{
  position: absolute;
  cursor: pointer;

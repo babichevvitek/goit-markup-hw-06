@@ -488,56 +488,54 @@
                    </svg>
                 </button>  
 
-                
+               
 
                 <form class="form-modal">
 
                     <p class="declare">
                         Оставьте свои данные, мы вам перезвоним
                     </p>
-
-                    <ul class="field">
-                        <li class="field-item">
-                            <label class="form-label" for="name">имя</label>
-                          <input type="text" class="form-input" name="name" id="name" />
-
-                        </li>
-
-                        <li class="field-item">
-                            <label class="tel" for="tel">телефон</label>  
-                            <input type="tel" class="form-input" name="tel" id="tel" />
-                        </li>
-
-                        <li class="field-item">
-                            
-                         <label class="email" for="email">почта</label>
-                         <input type="email" class="form-input" name="email" id="email" />
-
-                        </li>
-
-                        <li class="field-item-comment">
-                            
-                            <label class="comment" for="comment">
-                               Комментарий
-                               <textarea class="comment-text" name="" placeholder="Введите текст"></textarea>
-                          
-                           </label>
-                        </li>
-                    
-
-                    
-
-                    </ul>
                    
-
-                    
-
-                   <div class="form-policy">
-                        <label class="policy" for="policy"></label>
+                    <div class="field-name">
                         
-                         <input type="checkbox" name="policy" id="policy" />
+                        <label class="form-label" for="name">
+                            имя
+                         <input type="text" class="form-input" name="name" />
+                        </label>
+    
+                    </div>    
+    
+                    <div class="field-tel">
+                        <label class="tel" for="tel">  
+                            телефон
+                         <input type="tel" class="form-input" name="tel" />
+                        </label>
+                    </div>      
+    
+                    <div class="field-email">
+                                 
+                        <label class="email" for="email">
+                            почта
+                          <input type="email" class="form-input" name="email" id="email" />
+                        </label>
+                    </div>  
+    
+                    <div class="field-comment">
+                        <label class="comment" for="comment">
+                            Комментарий
+                            <textarea class="comment-text" id="comment " name="" placeholder="Введите текст"></textarea>
+                           
+                        </label>
+                    </div>
+
+
+                   <div class="field-checkbox">
+                        <label class="policy" for="policy">
+                        
+                         <input class="checkbox visually-hidden" type="checkbox" name="policy" />
                          Соглашаюсь с рассылкой и принимаю 
                          <a href="" class="policy-link">Условия договора</a>    
+                        </label>
 
                     </div>
 
