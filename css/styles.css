@@ -468,13 +468,13 @@ color: var(--feature-text-color);
  
 }
 
-
 .field-comment label{
   margin-bottom: 4px;
  }
 
-.form-policy{
+.field-checkbox{
   display: flex;
+  flex-direction: column;
 }
 
 
@@ -492,22 +492,33 @@ color: var(--feature-text-color);
  box-sizing: border-box;
  border-radius: 4px;
 }
-.field-checkbox{
-  margin-bottom: 30px;
-}
+
 .policy {
+
+  position: relative;
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+ font-style: normal;
+ font-weight: normal;
  font-size: 14px;
  line-height: 1.71;
  
  letter-spacing: 0.03em;
- color: #757575;
+ color: var(--feature-text-color);
+ margin-bottom: 30px;
+padding-left: 36px;
+padding-right: 11px;
+
 }
 .policy-link{
   color: var(--accent-color);
 
+}
+.icon-Vector-1{
+  position: absolute;
+ width: 16px;
+ height: 15px;
+ left: 12px;
+ top: 3px;
 }
 .send{
  
