@@ -474,7 +474,33 @@
                         
                         </ul>
                   </div>
-                </div>   
+                </div>  
+                <div class="mailing">
+                    <p class="subscription">Подпишитесь на рассылку</p>
+                    <form class="form-footer">
+                        <div class="mailing-form">
+                            <label class="mail-label" for="mail"></label>
+                          
+                            <input type="mail" class="mail-input" 
+                             name="name"
+                             id="mail"
+                             autocomplete="on"
+                             placeholder="E-mail"
+                            />
+                            <button type="submit" class="airplane">Подписаться
+                               <svg class="icon-icon">
+                                  <use href="./images/icons 2.svg#icon-icon"></use>  
+                               </svg>
+                            </button>
+
+                            
+                        </div>
+                       
+
+                       
+
+                    </form>
+                </div> 
                 
            </div>
 
@@ -498,43 +524,42 @@
                    
                     <div class="field-name">
                         
-                        <label class="form-label" for="name">
-                            имя
-                         <input type="text" class="form-input" name="name" autofocus />
+                        <label class="form-label" for="name">имя</label>
+                          
+                         <input type="text" class="form-input" name="name" id="name" autofocus />
                          <svg class="icon-person">
                             <use href="./images/icons 2.svg#icon-person"></use>  
                          </svg>
-                        </label>
+                       
     
                     </div>    
     
                     <div class="field-tel">
-                        <label class="tel" for="tel">  
-                            телефон
-                         <input type="tel" class="form-input" name="tel" />
+                        <label class="tel" for="tel">телефон</label>
+                           
+                         <input type="tel" class="form-input" name="tel" id="tel" />
                          <svg class="icon-phone">
                             <use href="./images/icons 2.svg#icon-phone"></use>  
                          </svg>
-                        </label>
+                       
                     </div>      
     
-                    <div class="field-email">
-                                 
-                        <label class="email" for="email">
-                            почта
+                    <div class="field-email">          
+                        <label class="email" for="email">почта</label>
+                            
                           <input type="email" class="form-input" name="email" id="email" />
                           <svg class="icon-email">
                             <use href="./images/icons 2.svg#icon-email"></use>  
                          </svg>
-                        </label>
+                        
                     </div>  
     
                     <div class="field-comment">
-                        <label class="comment" for="comment">
-                            Комментарий
-                            <textarea class="comment-text" id="comment " name="" placeholder="Введите текст"></textarea>
+                        <label class="comment" for="comment">Комментарий</label>   
                            
-                        </label>
+                         <textarea class="comment-text" id="comment" name="comment" placeholder="Введите текст"></textarea>
+                        
+                        
                     </div>
 
 
@@ -546,11 +571,8 @@
                          <a href="" class="policy-link">Условия договора</a>    
                         </label>
 
-                    </div>
-
-                  
-
                     <button class="send" type="submit">Отправить</button>
+
 
                 </form>
 
