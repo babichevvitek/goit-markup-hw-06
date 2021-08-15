@@ -591,14 +591,6 @@ padding-right: 11px;
   border-color: var(--accent-color);
 }
 
-
-
-
-
-
-
-
-
 .icon-Vector-2{
   position: absolute;
  width: 16px;
@@ -608,7 +600,6 @@ padding-right: 11px;
  
 }
 .send{
- 
  cursor: pointer;
  display:inline-block;
  align-items: center;
@@ -639,19 +630,15 @@ padding-right: 11px;
  padding-bottom: 94px;
 }
 
-
-
 .section-list{
   display: flex;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-
 .one:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .five{
   display: flex;
@@ -665,9 +652,7 @@ padding-right: 11px;
 }
 
 .section-title{
- 
   margin-bottom: 10px;
-
   color: var(--title-text-color) ;
   font-family: Roboto;
   font-weight: bold;
@@ -676,7 +661,6 @@ padding-right: 11px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 } 
-
 
 .section-feature{
  margin-top: 0;
@@ -688,7 +672,6 @@ padding-right: 11px;
  letter-spacing: 0.03em;
  width: 270px;
 }
-
 
 .section-list{
   list-style: none;
@@ -704,10 +687,8 @@ padding-right: 11px;
   display: block;
   margin-top: 0;
   margin-bottom: 50px;
-
   color: var(--title-text-color);
   font-family: Roboto;
-
   font-weight: bold;  font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -724,9 +705,11 @@ padding-right: 11px;
   margin-left: 0;
   margin-right: 30px;
 }
+
 .photo:last-child{ 
  margin-right: 0;
 }
+
 .photo-box{
   position: absolute;
   display: flex;
@@ -735,12 +718,10 @@ padding-right: 11px;
   bottom: 0;
   width: 370px;
   height: 70px;
-
   background: rgba(47, 48, 58, 0.8);
 }
 
 .photo-text{
- 
   font-family: Roboto;
  font-style: normal;
  font-weight: bold;
@@ -750,10 +731,6 @@ padding-right: 11px;
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: var(--hero-text-color);
-
-
-
-
 }
 
 .the-best{
@@ -767,7 +744,6 @@ padding-right: 11px;
 
 
 .team{
- 
  margin-bottom: 50px;
  color: var(--title-text-color);
  background: var(--fon-text-color);
@@ -781,8 +757,8 @@ padding-right: 11px;
 
 .people{
   padding: 30px 32px;
- 
 }
+
 .team-list{
  margin-top: 0;
  margin-bottom: 10px;
@@ -794,6 +770,7 @@ padding-right: 11px;
  text-align: center;
  letter-spacing: 0.03em;
 }
+
 .profession{
  color: var(--feature-text-color);
  font-family: Roboto;
@@ -803,11 +780,13 @@ padding-right: 11px;
  text-align: center;
  letter-spacing: 0.03em;
 }
+
 .team-professionals-list{
   display: flex;
   background: var(--fon-text-color);
   list-style: none;
 }
+
 .social{
   display:flex ;
   list-style: none;
@@ -817,10 +796,8 @@ padding-right: 11px;
 .social-link{
   position: relative;
   display: flex;
- 
   align-items: center;
   justify-content: center;
- 
   border: none;
   padding: 0;
  width: 44px;
@@ -830,9 +807,11 @@ padding-right: 11px;
  background-color: rgba(255, 255, 255, 0.1);
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 } 
+
 .social-item{
   margin-right: 10px;
 }
+
 .social-item:last-child{
   margin-right: 0;
 }
@@ -841,18 +820,18 @@ padding-right: 11px;
   width: 20px;
   height: 20px;
 }
+
 .social-link:hover{
   cursor: pointer;
 background-color: var(--button-text-color);
 fill: var(--hero-text-color);
 }
+
 .social-link:focus{
  cursor: pointer;
  background-color: var(--button-text-color);
  fill: var(--hero-text-color);
 }
-
-
 
 .workers{
   background-color: var(--hero-text-color);
@@ -862,8 +841,8 @@ fill: var(--hero-text-color);
 
 .workers:not(:last-child) {
   margin-right: 30px;
- 
 }
+
    /*--Клиенты--*/
   
 .clients{ 
@@ -884,7 +863,6 @@ fill: var(--hero-text-color);
 .clients-item{
   margin-left: 0;
   margin-right: 30px;
- 
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -938,11 +916,9 @@ fill: var(--hero-text-color);
   background-color: var(--hero-text-color);
 }
 
-
 .clients-item{
   list-style: none;
 }
-
 
 .clients-link{
   display: flex; 
@@ -961,15 +937,11 @@ background-color: var(--hero-text-color);
 
 
 
-
-
-
 /*-- Подвал--*/
 
 .footer-link{
   display: block;
   margin-bottom: 20px;
- 
  color: var(--hero-text-color);
  font-family: Raleway;
  font-weight: bold;
@@ -977,6 +949,7 @@ background-color: var(--hero-text-color);
  line-height: 1.19;
  letter-spacing: 0.03em;
 }
+
 .footer-link{
   text-decoration: none;
 }
