@@ -477,16 +477,18 @@
                 </div>  
                 <div class="mailing">
                     <p class="subscription">Подпишитесь на рассылку</p>
-                    <form class="form-footer">
+                    <form class="form-footer" autocomplete="on" >
                         <div class="mailing-form">
                             <label class="mail-label" for="mail"></label>
                           
-                            <input type="mail" class="mail-input" 
-                             name="name"
+                            <input type="text" class="mail-input" 
+                             name="name"  
                              id="mail"
-                             autocomplete="on"
                              placeholder="E-mail"
+                             
                             />
+                            
+                           
                             <button type="submit" class="airplane">Подписаться
                                <svg class="icon-icon">
                                   <use href="./images/icons 2.svg#icon-icon"></use>  
@@ -534,7 +536,7 @@
                     <div class="field-tel">
                         <label class="tel" for="tel">телефон</label>
                            
-                         <input type="tel" class="form-input" name="tel" id="tel" placeholder=" " />
+                         <input type="tel" class="form-input" name="tel" id="tel" />
                          <svg class="icon-phone">
                             <use href="./images/icons 2.svg#icon-phone"></use>  
                          </svg>
